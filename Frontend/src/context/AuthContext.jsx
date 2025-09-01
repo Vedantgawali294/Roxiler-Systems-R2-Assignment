@@ -17,7 +17,7 @@ export const AuthProvider = ({ children }) => {
   const [loading, setLoading] = useState(true);
 
   // Set default axios config
-  const API_BASE_URL = 'http://localhost:5000/api';
+  const API_BASE_URL = 'https://roxiler-systems-r2-assignment-1.onrender.com/api';
   axios.defaults.baseURL = API_BASE_URL;
 
   useEffect(() => {
